@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Booking">
+    <test verbose="2" preserve-order="true" name="Booking">
+        <groups>
+            <run>
+                <include name="multi-city" />
+            </run>
+        </groups>
+        <classes>
+            <class name="TestCases.BookFlightTest"/>
+        </classes>
+    </test>
+</suite>
+
+
